@@ -7,8 +7,8 @@ function setup() {
     mode = 0;
 
     // Creates window
-   let cnv = createCanvas(900,600);
-   cnv.position(850,400) 
+   createCanvas(900,600);
+ 
    player = new Player();
    
    // Fills array of blocks
